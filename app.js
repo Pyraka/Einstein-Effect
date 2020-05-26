@@ -49,7 +49,7 @@ let elevationObserver = {
             this.value2 = newVal;
             var ra = value1 + 6371000; //en m 
             var rb = value2 + 6371000; //en m
-            var freq = (Math.sqrt((1 - R / rb) / (1 - R / ra)) - 1)*Math.pow(10,13);;
+            var freq = (Math.sqrt((1 - R / rb) / (1 - R / ra)) - 1)*Math.pow(10,13);
 
             var ele1 = document.getElementById('h1');
             ele1.textContent = value1 + 'm';
