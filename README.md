@@ -1,2 +1,2 @@
-# Pyraka
-Simulation de l'effet Einstein entre deux points 
+# Einstein
+Simulated einstein effect between two points in the world. Time difference because of high.
